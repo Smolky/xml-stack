@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "topbands.dtd">
+<bands>
+   <band active="true">
+      <title>Angra</title>
+      <year>1985</year>
+      <members>
+         <member>
+            <fullname>Fabio Lione</fullname>
+            <instruments>
+               <instrument>Voice</instrument>
+            </instruments>
+         </member>
+         <member>
+            <fullname>Rafael Bittencourt</fullname>
+            <instruments>
+               <instrument>Guitar</instrument>
+            </instruments>
+         </member>
+         <member>
+            <fullname>Marcelo Barbosa</fullname>
+            <instruments>
+               <instrument>Guitar</instrument>
+            </instruments>
+         </member>
+         <member>
+            <fullname>Felipe Andreoli</fullname>
+            <instruments>
+               <instrument>Bass Guitar</instrument>
+            </instruments>
+         </member>
+         <member>
+            <fullname>Aquiles Priester</fullname>
+            <instruments>
+               <instrument>Drums</instrument>
+            </instruments>
+         </member>
+      </members>
+   </band>
+   <band>
+      <title>Nirvana</title>
+      <year>1980</year>
+      <members>
+         <member>
+            <fullname>Kurt Cobain</fullname>
+            <instruments>
+               <instrument>Voice</instrument>
+               <instrument>Guitar</instrument>
+            </instruments>
+         </member>
+         <member>
+            <fullname>Krist Anthony Novoselic</fullname>
+            <instruments>
+               <instrument>Bass</instrument>
+            </instruments>
+         </member>
+         <member>
+            <fullname>Dave Grohl</fullname>
+            <instruments>
+               <instrument>Drums</instrument>
+            </instruments>
+         </member>
+      </members>
+   </band>
+</bands>

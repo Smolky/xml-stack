@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+   <!-- Top 10 Bands. Contains a list of bands -->
+   <xs:element name="bands">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="10" ref="band" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <!-- A band element. Formed by members -->
+   <xs:element name="band">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="title" />
+            <xs:element ref="year" />
+            <xs:element ref="members" minOccurs="0" />
+         </xs:sequence>
+         <!-- A band can be active or not -->
+         <xs:attribute name="active">
+            <xs:simpleType>
+               <xs:restriction base="xs:boolean" />
+            </xs:simpleType>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+   <!-- Members -->
+   <xs:element name="members">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="member" minOccurs="0" maxOccurs="30" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <!-- Member -->
+   <xs:element name="member">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="fullname" />
+            <xs:element ref="instruments" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <!-- Instruments -->
+   <xs:element name="instruments">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="instrument" minOccurs="0" maxOccurs="10" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <!-- Elements -->
+   <xs:element name="title" type="xs:string" />
+   <xs:element name="fullname" type="xs:string" />
+   <xs:element name="instrument" type="xs:string" />
+   <xs:element name="year" type="xs:positiveInteger" />
+</xs:schema>

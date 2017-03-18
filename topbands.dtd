@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT bands (band*)>
+<!ELEMENT band (title, year, members?)>
+<!ELEMENT members (member)>
+<!ELEMENT member (fullname, instruments?)>
+<!ELEMENT instruments (instrument*)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT fullname (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT instrument (#PCDATA)>

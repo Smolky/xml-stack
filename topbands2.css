@@ -1,0 +1,36 @@
+/* Bands 2 */
+bands {
+    display: block;
+    margin: 1rem auto 1rem;
+    padding: 1rem 0;
+    
+    display: flex;
+    justify-content: center;
+}
+
+band {
+    display: block;
+    padding: 0 .7rem;
+    margin: 0 1rem;
+    line-height: 2;
+    font-family: Helvetica, Arial;
+    background-color: #eee;
+    border-bottom: 1px solid #bbb;    
+    counter-increment: section;
+}
+
+band:before {
+    content: counter(section) ".";
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+year {
+    font-style: italic;
+    color: #999;
+}
+
+member {
+    display: block;
+    font-style: italic;
+}

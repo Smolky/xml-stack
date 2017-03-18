@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="topbands2.css?v=2"?>
+<bands xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="topbands.xsd">
+   <band active="true">
+      <title>Angra</title>
+      <year>1985</year>
+   </band>
+   <band>
+      <title>Rage</title>
+      <year>2002</year>
+   </band>
+   <band>
+      <title>Red Hot Chili Peppers</title>
+      <year>1980</year>
+   </band>
+   <band>
+      <title>The Beatles</title>
+      <year>1958</year>
+   </band>
+   <band>
+      <title>Christofer Cross</title>
+      <year>1970</year>
+   </band>
+</bands>
